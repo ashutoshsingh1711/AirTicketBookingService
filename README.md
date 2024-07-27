@@ -15,3 +15,6 @@
 
     npx sequelize init; // CREATE FOLDERS
     npx sequelize db:create  // CREATE DATABASE ON MYSQL
+
+    npx sequelize model:generate --name Booking --attributes flightId:integer,userId:integer,status:ENUM
+    npx sequelize db:migrate
