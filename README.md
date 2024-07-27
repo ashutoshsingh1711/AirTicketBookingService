@@ -18,3 +18,7 @@
 
     npx sequelize model:generate --name Booking --attributes flightId:integer,userId:integer,status:ENUM
     npx sequelize db:migrate
+
+    //Update model Booking
+    npx sequelize migration:create --name modify_bookings_add_new_fields
+    npx sequelize db:migrate
