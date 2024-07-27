@@ -22,3 +22,5 @@
     //Update model Booking
     npx sequelize migration:create --name modify_bookings_add_new_fields
     npx sequelize db:migrate
+
+    <!-- JFK - npx sequelize db:migrate:undo is used to revert the last migration -->
