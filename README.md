@@ -10,3 +10,8 @@
     npm i nodemon;
     npm i dotenv;
     npm i morgan;
+
+## SETUP SEQUELIZE
+
+    npx sequelize init; // CREATE FOLDERS
+    npx sequelize db:create  // CREATE DATABASE ON MYSQL
